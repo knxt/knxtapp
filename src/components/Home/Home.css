@@ -1,0 +1,62 @@
+.hero {
+  background: #ffb400;
+}
+.hero-head {
+  background: #000;
+}
+h1.title {
+  font-size: 3em;
+  color: white;
+}
+h2.subtitle {
+  font-size: 2em;
+  color: white;
+}
+#logo {
+  font-size: 1.5em;
+  color: white;
+}
+.navbar-item {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+#hamburger-btn {
+  color: white;
+}
+a.navbar-item.is-active {
+  background: #333 !important;
+  color: white;
+}
+a.navbar-item:hover {
+  background: #333 !important;
+  color: white;
+}
+a.button.is-silent {
+  background: white;
+  color: #ffb400;
+  border-color: transparent;
+}
+a.button.is-silent.is-inverted {
+  color: white;
+  background: orange;
+}
+.hero-body {
+  text-align: left;
+}
+#navbarMenuHeroC {
+  background: rgba(0, 0, 0, 0.3);
+}
+.navbar-item {
+  color: white;
+}
+.navbar-item.is-active {
+  color: white;
+}
+.homepage-body {
+  padding: 2%;
+}
+.is-flat-elevated {
+  color: black;
+}
+footer {
+  padding: 1.5rem;
+}
