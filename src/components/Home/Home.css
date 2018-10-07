@@ -1,5 +1,10 @@
+.Login {
+  margin-top: 140px;
+}
+
 .hero {
-  background: #ffb400;
+  background: #89F769;
+  max-height: 100vw;
 }
 .hero-head {
   background: #000;
@@ -7,15 +12,18 @@
 h1.title {
   font-size: 3em;
   color: white;
+  padding-left: 200px;
 }
 h2.subtitle {
   font-size: 2em;
   color: white;
+  padding-left: 200px;
 }
 #logo {
   font-size: 1.5em;
   color: white;
 }
+
 .navbar-item {
   background: rgba(0, 0, 0, 0.4) !important;
 }
@@ -56,6 +64,10 @@ a.button.is-silent.is-inverted {
 }
 .is-flat-elevated {
   color: black;
+}
+
+.Login {
+
 }
 footer {
   padding: 1.5rem;

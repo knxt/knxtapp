@@ -1,5 +1,6 @@
 import React from 'react';
 import './Login.css';
+import {checkValidAddress, getWeb3} from '../../utils/utils.js' ;
 
 export default class Login extends React.Component {
 	constructor(props) {
@@ -12,7 +13,7 @@ export default class Login extends React.Component {
 		//Handle Metamask here
 		event.preventDefault();
 		window.location.reload();
-	};
+  };
 
 	render() {
 		return (
@@ -22,18 +23,15 @@ export default class Login extends React.Component {
 					<button className="login-button"> {/*disabled if no web3 object*/}
 						Log in
 					</button>
-					<a href="/" className="forgot-password">
-						Forgot password?
-					</a>
+          <div className="signup">
+  					<p>
+  						Don't have an account?
+  						<a href="/" className="signup-link">
+  							Sign up
+  						</a>
+  					</p>
+  				</div>
 				</form>
-				<div className="signup">
-					<p>
-						Don't have an account?
-						<a href="/" className="signup-link">
-							Sign up
-						</a>
-					</p>
-				</div>
 			</div>
 		);
 	}

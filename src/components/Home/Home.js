@@ -18,41 +18,9 @@ export default class Home extends Component {
       <title>Knxt - Offchain P2P Payments/Lending</title>
       </head>
 
-  <body>
-      <div>
+      <body>
+        <div>
           <section class="hero is-fullheight">
-            <div class="hero-head">
-              <header class="navbar">
-                <div class="container">
-                  <div class="navbar-brand">
-                    <span id="logo" class="navbar-item">
-                      Knxt
-                    </span>
-                    <span id="hamburger-btn" class="navbar-burger burger" data-target="navbarMenuHeroC">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </span>
-                  </div>
-                  <div id="navbarMenuHeroC" class="navbar-menu">
-                    <div class="navbar-end">
-                      <span class="navbar-item">
-                        <a class="button is-silent" href="/search">
-                          <span>History</span>
-                        </a>
-                      </span>
-                      <span class="navbar-item">
-                        <a class="button is-silent is-inverted" href="/edit">
-                          <span>Dashboard</span>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </header>
-            </div>
-
-
             <div class="hero-body">
               <div class="container">
                 <h1 class="title">
@@ -67,7 +35,7 @@ export default class Home extends Component {
               </div>
             </div>
           </section>
-          </div>
+      </div>
   </body>
 </html>
     )
