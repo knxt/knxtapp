@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.css';
-import {checkValidAddress, getWeb3} from '../../utils/utils.js' ;
+//import {checkValidAddress, getWeb3} from '../../utils/utils.js' ;
 
 export default class Login extends React.Component {
 	constructor(props) {
