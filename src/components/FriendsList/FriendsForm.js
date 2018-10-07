@@ -48,7 +48,7 @@ render() {
           value={this.state.address}
           name="address"
           />
-        <button className="submit" type="submit" onClick={window.location.reload}>+ Friend</button>
+        <button className="submit" type="submit">+ Friend</button>
         </form>
         </div>
       </div>
