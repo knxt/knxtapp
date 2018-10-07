@@ -14,6 +14,7 @@ export default class FriendsList extends Component{
     closeModal = e => {
       const modal = document.querySelector('.modal');
       modal.classList.value = 'modal';
+      window.location.reload();
     }
 
     render() {
